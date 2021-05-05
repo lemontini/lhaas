@@ -1,4 +1,4 @@
-package com.insectnet.lhaas;
+package com.insectnet.lhaas.model;
 
 public enum Sign {
   AQUARIUS(1),

@@ -38,12 +38,26 @@
   <dependencies>
     <dependency>
       <groupId>io.vertx</groupId>
+      <artifactId>vertx-core</artifactId>
+      <version>4.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
       <artifactId>vertx-web</artifactId>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
-      <artifactId>vertx-mysql-client</artifactId>
+      <artifactId>vertx-jdbc-client</artifactId>
     </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.19</version>
+    </dependency>
+    <!--<dependency>-->
+    <!--  <groupId>io.vertx</groupId>-->
+    <!--  <artifactId>vertx-mysql-client</artifactId>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>io.vertx</groupId>
@@ -62,6 +76,7 @@
       <version>${junit-jupiter.version}</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 
   <build>

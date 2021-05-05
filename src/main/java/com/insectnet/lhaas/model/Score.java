@@ -1,4 +1,4 @@
-package com.insectnet.lhaas;
+package com.insectnet.lhaas.model;
 
 import java.time.Month;
 import java.time.Year;
